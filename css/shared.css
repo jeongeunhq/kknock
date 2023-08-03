@@ -1,0 +1,96 @@
+/* ========== Page Common ========== */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(59,65,64);
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 4rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ========== Header ========== */
+header{
+    top: 0;
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(29,26,24);
+    padding: 0 6rem;
+}
+
+header ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    margin: 0 1rem;
+}
+
+header nav a{
+    color: rgb(185,131,31);
+    font-size: 1.25rem;
+}
+
+header nav a:hover{
+    color: rgb(185,131,44);
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(238,164,80);
+    text-transform: uppercase;
+}
+/* ========== Main ==========*/
+.wrap{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input:not(input[type="submit"]){
+    border: 1px solid rgb(211, 203, 203);
+    width: 25rem;
+    height: 3.2rem;
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.wrap .form_btn{
+    width: 25rem;
+    height: 3.2rem;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(238,164,0 );
+    background-color: rgb(238,164,0 );
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}

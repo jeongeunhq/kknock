@@ -1,0 +1,39 @@
+/* ========== Main ========== */
+#main_wrap section{
+    width: 100rem;
+    height: 30rem;
+    padding: 10rem 0;
+    margin-top: 6rem;
+    background-color: rgb(255,255,255);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 4px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    text-align: center;
+}
+
+ #intro{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+        text-align: center; 
+    }
+    
+#flex_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    background-color: rgb(155, 155, 155);
+    width: 60rem;
+    height: 10rem;
+    border-radius: 5px;
+    margin-right: 10rem;    
+}
+.content_data{
+    font-size: 16px;
+    margin: 1.5rem 2rem;
+    text-align: center;
+}
+.wrap h1{
+    color: rgb(238,164,0 );
+}

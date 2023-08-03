@@ -1,0 +1,44 @@
+/* ========== Page Common ========== */
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* ========== Main ========== */
+#login_wrap{
+    width: 31.2rem;
+    height: 41rem;
+    margin: 10rem auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+section{
+    padding: 4rem 0;
+}
+
+input:not(input[type="submit"]){
+    border: 1px solid rgb(211, 203, 203);
+    width: 25rem;
+    height: 3.2rem;
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+#forget_pw{
+    padding: 0.5rem;
+}
+
+#join_btn a,
+#forget_pw a{
+    color: rgb(238,164,0);
+}

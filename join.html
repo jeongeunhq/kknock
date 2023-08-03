@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/join.css">
+</head>
+<body>
+    <header>
+        <a href="join.html" id="logo">Wlkate</a>
+        <nav>
+            <ul>
+                <li><a href="#">Board</a></li>
+                <li><a href="index.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wrap" id="join_wrap">
+        <h1>Sing Up</h1>
+        <section>
+            <form action="join_ok.php" name="joinForm" method="get" class="form" id="login_form" onsubmit="return sendIt()">
+                <p>
+                    <input type="text" name="userName" id="user_name" placeholder="Name">
+                </p>
+                <p>
+                    <input type="text" name="userId" id="user_id" placeholder="ID">
+                    
+                </p>
+                <p>
+                    <input type="password" name="userPw" id="user_pw" placeholder="Password">
+                </p>
+                <p>
+                    <input type="password" name="userPwCheck" id="userpw_ch" placeholder="Password Check">
+                </p>
+                <p>
+                    <input type="text" name="userPhone" id="user_phone" placeholder="Phone Number 000-0000-0000">
+                </p>
+                <p>
+                    <input type="text" name="userEmail" id="usere_mail" placeholder="E-mail">
+                </p>
+                <p>
+                    <input type="submit" value="Sin Up" class="form_btn">
+                </p>
+                
+                <p class="pre_btn">Are you join? <a href="index.html">Login.</a></p>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

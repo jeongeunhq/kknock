@@ -1,0 +1,76 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:rgb(59,65,64);
+}
+#board_wrap{
+    margin-top: 7rem;
+}
+#board_wrap section{
+    background-color: rgb(255, 253, 249);
+    border-radius: 7px;
+    width: 80rem;
+    height: 42rem;
+}
+#board_main{
+    height:36.6rem;
+    position:relative;
+}
+#board{
+
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+#board thead tr th{
+    background-color: rgb(238,164,80);
+    padding: 0.25rem;
+    font-size: 24px;
+    border-bottom: 3px solid rgb(189, 130, 64);
+}
+#board tbody tr{
+    height: 1.5rem;
+}
+#board tbody tr td{	
+    padding: 0.75rem;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(189, 130, 64);
+}
+#page_nums{
+    height:3rem;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.page_num{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 4px;
+}
+#cur_page{
+    color: rgb(238,164,80);
+}
+#page_title{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:36rem;
+}
+#write_btn{
+    width: 5rem;
+    height: 2.5rem;
+    padding: 5px;
+    margin: 0.3rem 1rem;
+    border: 1px solid rgb(238,164,0 );
+    background-color: rgb(238,164,0 );
+    color:rgb(255,255,255);
+    position: absolute;
+    bottom: 4.6rem;
+    right: 18rem;
+}
+#board_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page_str{
+    padding: 0 4px;
+}

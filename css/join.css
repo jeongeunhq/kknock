@@ -1,0 +1,44 @@
+/* ========== Page Common ========== */
+
+h1{
+    margin-bottom: 1rem;
+}
+
+/* ========== Header ========== */
+
+header{
+    padding: 0 5rem;
+}
+
+/* ========== Main ==========*/
+
+#join_wrap{
+    width: 31.2rem;
+    height: 45rem;
+    margin: 10rem auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#check_id_btn,
+#addr_search_btn {
+    position: relative;
+    top: -2px;
+    width: 50px;
+    margin-left: 0;
+    padding-left: 0;
+    border: 0;
+    box-sizing:content-box;
+    background-color: rgb(238,164,0);
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#join_wrap #join_form #result {
+    display: none;
+}
+
+.pre_btn a{
+    color:rgb(238,164,0);
+}
